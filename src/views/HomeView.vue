@@ -65,7 +65,8 @@ const previewCity = (searchResult) => {
   });
 };
 
-const mapboxAPIKey = process.env.MAPBOX_API_KEY;
+const mapboxAPIKey =
+  "pk.eyJ1Ijoiam9obmtvbWFybmlja2kiLCJhIjoiY2t5NjFzODZvMHJkaDJ1bWx6OGVieGxreSJ9.IpojdT3U3NENknF6_WhR2Q";
 const searchQuery = ref("");
 const queryTimeout = ref(null);
 const mapboxSearchResults = ref(null);
